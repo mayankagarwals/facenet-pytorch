@@ -62,7 +62,3 @@ np.testing.assert_allclose(to_numpy(torch_out), ort_outs[0], rtol=1e-03, atol=1e
 print("Exported model has been tested with ONNXRuntime, and the result looks good!")
 
 
-'''
-Todo:
-1. Time both versions
-'''
